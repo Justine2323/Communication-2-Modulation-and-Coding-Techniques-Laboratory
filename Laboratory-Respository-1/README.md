@@ -1,5 +1,7 @@
 # Amplitude-Modulation Theoretical and Technical Systems
+<p align="justify">
 This Project Experimental was investigates the theoretical principles and practical implementation of Amplitude Modulation by generating, observing, and analyzing AM signals using communication system blocks and signal measurement tools.
+</p>
 
 ## Objectives
 - To study and implement Amplitude Modulation (AM) by generating a modulated signal, observing its waveform characteristics, and analyzing the relationship between the message signal and the carrier signal using a communication system setup.
@@ -14,11 +16,14 @@ This Project Experimental was investigates the theoretical principles and practi
 ## Table of Contents
 - [Part 1 : Introduction to Oscilloscope](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/edit/main/Laboratory-Respository-1/README.md#part-1--introduction-to-oscilloscope)
 - [Part 2 : Introduction to Emona Trainer 101 (ETT-101)](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/blob/main/Laboratory-Respository-1/README.md#part-2--introduction-to-emona-trainer-101-ett-101)
-- Part 3 :
+- [Part 3 : Signal Manipulation using Adder Module](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/blob/main/Laboratory-Respository-1/README.md#part-3--signal-manipulation-using-adder-module)
 - Part 4 :
 
 ## Part 1 : Introduction to Oscilloscope
+<p align="justify">
 As an electronics engineering (ECE) student, the oscilloscope is one of the most essential instruments in this field, especially for observing and analyzing electrical signals. It allows the visualization of voltage variations with respect to time, making it possible to study signal amplitude, frequency, waveform shape, and timing characteristics. In communication system experiments, the oscilloscope plays a crucial role in verifying signal behavior, troubleshooting circuit connections, and confirming proper system operation.
+  </p>
+  
 ### 1.0 Horizontal & Vertical Details
 #### 1.0.0. Horizontal (Time Base)
 - Controls the **time scale** of the waveform on the screen
@@ -98,7 +103,9 @@ As an electronics engineering (ECE) student, the oscilloscope is one of the most
 </details>
 
 ## Part 2 : Introduction to Emona Trainer 101 (ETT-101)
+<p align="justify">
 The Emona Telecoms-Trainer 101 (ETT-101) is an educational communication system platform designed to demonstrate the practical implementation of analog and digital communication concepts. It allows students to build, observe, and analyze real communication systems using modular blocks such as signal sources, modulators, filters, and demodulators.
+</p>
 
 ### 2.0 Block Diagram
 <details>
@@ -198,7 +205,9 @@ The Emona Telecoms-Trainer 101 (ETT-101) is an educational communication system 
 </details>
 
 ## Part 3 : Signal Manipulation using Adder Module
+<p align="justify">
 The Adder Module is used to combine two or more input signals into a single output signal by performing signal addition. In this part of the experiment, the module demonstrates how multiple signals interact when added together, allowing observation of changes in amplitude and waveform shape. This process is essential in communication systems where signal mixing, modulation, and summation are required.
+</p>
 
 ### 3.0 Adder Module Equation
 
@@ -213,11 +222,9 @@ where:
 - $V_a(t)$ and $V_b(t)$ are the input signals  
 - $G$ and $g$ are the respective gain factors applied to each input  
 
+<p align="justify">
 This equation shows that the output signal is a weighted sum of the input signals, depending on the selected gain settings of the Adder Module.
-
-
-
-
+</p>
 
 ### 3.1 Block Diagram
 <details>
@@ -258,16 +265,46 @@ This equation shows that the output signal is a weighted sum of the input signal
 
 </details>
 
-## Part 4 :
+
+## Part 4 : Generation and Analysis of AM Signals Using Double Sideband Full Carrier
+<p align="justify">
+This part of the experiment focuses on the generation of amplitude modulated signals using the Double Sideband Full Carrier (DSBFC) technique. The message signal is combined with a high-frequency carrier to produce an AM waveform whose envelope follows the message signal. The generated AM signal is observed and analyzed in the time domain to verify proper modulation and to study its characteristics.
+</p>
+
+### 4.0 System Flows and Analysis XY Mode
+
+- The oscilloscope is set to **XY mode** to display the relationship between two input signals.
+- One channel represents the **message signal**, while the other represents the **carrier or modulated signal**.
+- The resulting display forms a pattern that shows how the signals interact.
+- Changes in the shape of the pattern indicate variations in **amplitude and phase**.
+- XY mode is used to verify correct modulation and signal synchronization.
+- The X-Axis is the message signal.
+- THe Y-Axis is the AM signal output.
+
+
 ### 4.1 Block Diagram
 <details>
 <summary> View Part 4 Setups</summary>
 
 ![Part4_4 1generatingammessagediagram](https://github.com/user-attachments/assets/b561c046-c080-4101-8cb7-21ae852bb6a9)
-![Part4_4 1setupgeneratingammessage](https://github.com/user-attachments/assets/0edef375-4900-4f24-bb27-369d3141e18e)
-![Part4_4 2generatingdsbfcdiagram](https://github.com/user-attachments/assets/51cc709d-c00d-4d86-af45-2e360f222164)
-![Part4_4 2setupgeneratingdsbfc](https://github.com/user-attachments/assets/34f42954-e609-4acb-b4f9-4bd994b678b8)
+<p align="center">
+  <em>Figure 4.1.0: Generating AM Message setup.</em>
+</p>
 
+![Part4_4 1setupgeneratingammessage](https://github.com/user-attachments/assets/0edef375-4900-4f24-bb27-369d3141e18e)
+<p align="center">
+  <em>Figure 4.1.1: Generating AM Message block diagram.</em>
+</p>
+
+![Part4_4 2generatingdsbfcdiagram](https://github.com/user-attachments/assets/51cc709d-c00d-4d86-af45-2e360f222164)
+<p align="center">
+  <em>Figure 4.1.0: Generating Double Side-band Full Carrier signal Setup.</em>
+</p>
+
+![Part4_4 2setupgeneratingdsbfc](https://github.com/user-attachments/assets/34f42954-e609-4acb-b4f9-4bd994b678b8)
+<p align="center">
+  <em>Figure 4.1.0: Generating Double Side-band Full Carrier signal block diagram.</em>
+</p>
 
 </details>
 
@@ -276,15 +313,33 @@ This equation shows that the output signal is a weighted sum of the input signal
 <summary> View Part 4 Results</summary>
 
 ![Part4_resultsfig1VDCinput](https://github.com/user-attachments/assets/e2e9a062-3df0-4c21-8935-82c1f34b63d2)
+<p align="center">
+  <em>Figure 4.2.0: shows that the modulating signal act as an Vdc source input.</em>
+</p>
+
 ![Part4_resultfig2Mastersignalinput](https://github.com/user-attachments/assets/5328823e-6ddf-41cb-afe6-2bf370f45d3d)
+<p align="center">
+  <em>Figure 4.2.1: shows that the modulating signal act as an normal sinewave .</em>
+</p>
+
 ![Part4_resultfig1AMwith0 32m](https://github.com/user-attachments/assets/74b161b8-a5f6-48d6-b21e-29403f5347c0)
+<p align="center">
+  <em>Figure 4.2.2: shows that the AM signal in modulation index = 0.32.</em>
+</p>
+
 ![Part4_resultfig2AMwith0 7m](https://github.com/user-attachments/assets/5591180f-6459-435d-b64d-b26d837eaf3b)
+<p align="center">
+  <em>Figure 4.2.3: AM signal at 0.7 modulation index.</em>
+</p>
+
 ![Part4_resultfig3AMwith1m](https://github.com/user-attachments/assets/f1e2aafd-2ff7-48a2-bc16-6868942931d7)
+<p align="center">
+  <em>Figure 4.2.4: shows that the AM signal is the perfect modulation.</em>
+</p>
+
 ![Part4_resultfig4AMwith1 2m](https://github.com/user-attachments/assets/7bd3e4d9-79d3-47aa-bdd7-dcb8da86557e)
+<p align="center">
+  <em>Figure 4.2.5: shows that the AM signal is overmodulated.</em>
+</p>
 
 </details>
-
-## Reflection/Learning Summary
-
-
-
