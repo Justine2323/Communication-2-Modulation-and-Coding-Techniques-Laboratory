@@ -1,25 +1,99 @@
 # Amplitude-Modulation Theoretical and Technical Systems
 This Project Experimental was investigates the theoretical principles and practical implementation of Amplitude Modulation by generating, observing, and analyzing AM signals using communication system blocks and signal measurement tools.
 
+## Objectives
+- To study and implement Amplitude Modulation (AM) by generating a modulated signal, observing its waveform characteristics, and analyzing the relationship between the message signal and the carrier signal using a communication system setup.
+
+## Materials and Components Used
+- Emona Telecoms-Trainer 101 (ETT-101)
+- Dual-Channel Oscilloscope 
+- Power Supply
+- Patch Cords / Connecting Wires
+- Laptop
+
 ## Table of Contents
-- Part 1 : 
+- [Part 1 : Introduction to Oscilloscope ](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/edit/main/Laboratory-Respository-1/README.md#part-1--introduction-to-oscilloscope)
 - Part 2 :
 - Part 3 :
 - Part 4 :
 
-## Part 1 : 
-### 1.1 Oscilloscope Setup
--
--
--
--
+## Part 1 : Introduction to Oscilloscope
+As an electronics engineering (ECE) student, the oscilloscope is one of the most essential instruments in this field, especially for observing and analyzing electrical signals. It allows the visualization of voltage variations with respect to time, making it possible to study signal amplitude, frequency, waveform shape, and timing characteristics. In communication system experiments, the oscilloscope plays a crucial role in verifying signal behavior, troubleshooting circuit connections, and confirming proper system operation.
+## 1.0 Horizontal & Vertical Details
+### 1.0.0. Horizontal (Time Base)
+- Controls the **time scale** of the waveform on the screen
+- Shows how the signal **changes over time**
+- Used to measure **period** and **frequency**
+- Adjusted using the **Time/Div** knob
+
+### 1.0.1. Vertical (Amplitude)
+- Controls the **voltage scale** of the waveform
+- Shows the **signal amplitude** (height of the waveform)
+- Used to measure **peak-to-peak voltage (Vpp)**
+- Adjusted using the **Volts/Div** knob
+
+
+### 1.1 Oscilloscope Setup Procedures
+#### 1.1.0. General Controls
+<details>
+  <summary> </summary>
+  
+- Set the Intensity control to about three-quarters of its travel.
+- Set the Mode control to the CH1(or CH4) position.
+  
+</details>
+
+#### 1.1.1. Vertical Controls
+<details>
+  <summary> </summary>
+  
+- Set the Input Coupling control for both channels to the AC position.
+- Set the Vertical Attenuation control for both channels to the 1V/div position.
+- Set the Vertical Attenuation Calibration control for both channels to the detent (locked) position.
+- Set the Vertical Position control for both channels to about the middle of their travel.
+
+</details>
+
+#### 1.1.2. Horizontal Controls
+<details>
+  <summary> </summary>
+
+- Set the Horizontal Timebase control to the 0.5ms/div position.
+- Set the Horizontal Timebase calibration control to the detent (locked) position.
+- Set the Horizontal Position control to about the middle of its travel.
+  
+</details>
+
+#### 1.1.3. Triggering controls
+<details>
+  <summary> </summary>
+
+- Set the Sweep Mode control to the AUTO position.
+- Set the Trigger Level control to the detent (locked) position. If it doesn't have a detent position, set it to about the middle of its travel.
+- Set the Trigger Source control to the CH1(or INT) position.
+- Set the Trigger Source Coupling control to the AC position.
+- Set the Slope(or Sync) control to the "+" position.
+  
+</details>
+
 ### 1.2 Documentation/Output
 <details>
 <summary> View Part 1 Results</summary>
 
 ![Part1_resultfig4 (1)](https://github.com/user-attachments/assets/860914ff-9fcf-4d0c-a596-e3b7087575f5)
+<p align="center">
+  <em>Figure 1.2.0: Shows the verified 1 Vp-p square wave.</em>
+</p>
+
 ![Part1_results](https://github.com/user-attachments/assets/57e956dc-9c3d-4ae7-bfee-9499c042557c)
+<p align="center">
+  <em>Figure 1.2.1: Shows the results of square wave in 1kHz Frequency in 1ms Period.</em>
+</p>
+
 ![Part1_resultfig6](https://github.com/user-attachments/assets/2f74e08c-b8e0-4f09-acdb-487ac01f896f)
+<p align="center">
+  <em>Figure 1.2.2: Shows the square wave in 1kHz Frequency in 1ms period are zoomed in.</em>
+</p>
 
 </details>
 
@@ -105,6 +179,8 @@ This Project Experimental was investigates the theoretical principles and practi
 ![Part4_resultfig4AMwith1 2m](https://github.com/user-attachments/assets/7bd3e4d9-79d3-47aa-bdd7-dcb8da86557e)
 
 </details>
+
+## Reflection/Learning Summary
 
 
 
