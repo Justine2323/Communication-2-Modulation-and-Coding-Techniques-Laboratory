@@ -17,7 +17,7 @@ This Project Experimental was investigates the theoretical principles and practi
 - [Part 1 : Introduction to Oscilloscope](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/edit/main/Laboratory-Respository-1/README.md#part-1--introduction-to-oscilloscope)
 - [Part 2 : Introduction to Emona Trainer 101 (ETT-101)](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/blob/main/Laboratory-Respository-1/README.md#part-2--introduction-to-emona-trainer-101-ett-101)
 - [Part 3 : Signal Manipulation using Adder Module](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/blob/main/Laboratory-Respository-1/README.md#part-3--signal-manipulation-using-adder-module)
-- Part 4 :
+- [Part 4 : Generation and Analysis of AM Signals Using Double Sideband Full Carrier](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/tree/main/Laboratory-Respository-1#part-4--generation-and-analysis-of-am-signals-using-double-sideband-full-carrier)
 
 ## Part 1 : Introduction to Oscilloscope
 <p align="justify">
