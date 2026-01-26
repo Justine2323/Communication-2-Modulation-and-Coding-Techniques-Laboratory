@@ -1,4 +1,4 @@
-# Amplitude-Modulation Theoretical and Technical Systems
+# Amplitude-Modulation Theoretical and Hardware-Technical Systems
 <p align="justify">
 This Project Experimental was investigates the theoretical principles and practical implementation of Amplitude Modulation by generating, observing, and analyzing AM signals using communication system blocks and signal measurement tools.
 </p>
@@ -346,17 +346,26 @@ This part of the experiment focuses on the generation of amplitude modulated sig
 
 ## Results & Data Interpretation
 
-| Parameter                     | Observation / Measured Value | Interpretation |
-|------------------------------|------------------------------|----------------|
-| Message Signal Frequency     | 1 kHz                         | Represents the baseband information signal |
-| Carrier Frequency            | 100 kHz                       | High-frequency signal used for modulation |
-| Peak-to-Peak Voltage (Vpp)   | 1 Vp-p                        | Verified using oscilloscope measurement |
-| Modulation Type              | DSBFC                        | Double Sideband Full Carrier AM |
-| Envelope Shape               | Sinusoidal                    | Envelope follows the message signal |
-| Signal Stability             | Stable                        | Proper triggering and synchronization |
-| XY Mode Pattern              | Symmetrical pattern           | Confirms correct signal relationship |
+| Part | Parameter / Activity | Observed Result | Interpretation |
+|-----|----------------------|-----------------|----------------|
+| Part 1 | Oscilloscope Signal Display | Stable square and sine waveforms | Confirms correct oscilloscope setup and signal visualization |
+| Part 1 | Time Base Adjustment | 1 ms period observed at 1 kHz | Horizontal scaling correctly represents signal frequency |
+| Part 1 | Voltage Measurement | 1 Vp-p verified | Vertical scaling properly calibrated |
+| Part 2 | Message Signal Generation | 2 kHz sinewave output | Valid baseband signal generation |
+| Part 2 | Carrier Signal Generation | 100 kHz sine and cosine signals | Proper high-frequency carrier source |
+| Part 2 | Buffer Module Output | Stable and undistorted waveform | Confirms signal isolation and stability |
+| Part 3 | Adder Module Output | Combined input waveforms | Demonstrates correct signal summation |
+| Part 3 | Phase Shift Effect | Shifted waveform observed | Phase control influences signal alignment |
+| Part 4 | AM Signal Generation | Modulated waveform observed | Successful AM generation using DSB-FC |
+| Part 4 | Modulation Index (m = 0.32) | Low envelope variation | Under-modulated AM signal |
+| Part 4 | Modulation Index (m = 0.7) | Clear envelope shape | Proper modulation condition |
+| Part 4 | Modulation Index (m = 1.0) | Maximum envelope without distortion | Ideal AM modulation |
+| Part 4 | Modulation Index (m > 1.0) | Envelope distortion present | Over-modulation observed |
+| Part 4 | XY Mode Display | Symmetrical pattern | Confirms correct signal relationship |
 
-This experimental results confirm the proper AM signal generation was the observed waveform and envelope behavior agree with theoretical expectations.
+<p align="justify">
+The results from Parts 1 to 4 demonstrate a systematic progression from basic signal observation to full AM signal generation. Initial oscilloscope calibration ensured accurate measurements, while successive system blocks enabled proper signal manipulation and modulation. The observed AM waveforms and modulation index variations closely matched theoretical expectations.
+</p>
 
 ## Learnings/Summary
 <p align="justify"> This laboratory experiment has provided an clear understanding of the theoretical concepts and practical implementation of Amplitude Modulation (AM) using communication system modules. Through hands-on use of the oscilloscope and the Emona Telecoms-Trainer 101 (ETT-101), the relationship between the message signal and the carrier signal was successfully observed and analyzed. The experiment demonstrated how individual system blocks such as the adder, phase shifter, and signal sources work together to generate an AM signal using the Double Sideband Full Carrier (DSBFC) technique. </p> <p align="justify"> This results showed that the envelope of the AM signal follows the message signal, confirming correct modulation behavior. By varying the modulation index, different modulation conditions were observed, including under-modulation, proper modulation, and over-modulation. The use of XY mode further helped visualize the relationship between signals and verify system synchronization. Overall, this experiment strengthened practical skills in signal measurement, system setup, and waveform interpretation, while reinforcing key concepts in analog communication systems. </p>
