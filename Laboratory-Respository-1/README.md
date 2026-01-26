@@ -343,3 +343,22 @@ This part of the experiment focuses on the generation of amplitude modulated sig
 </p>
 
 </details>
+
+## Results & Data Interpretation
+
+| Parameter                     | Observation / Measured Value | Interpretation |
+|------------------------------|------------------------------|----------------|
+| Message Signal Frequency     | 1 kHz                         | Represents the baseband information signal |
+| Carrier Frequency            | 100 kHz                       | High-frequency signal used for modulation |
+| Peak-to-Peak Voltage (Vpp)   | 1 Vp-p                        | Verified using oscilloscope measurement |
+| Modulation Type              | DSBFC                        | Double Sideband Full Carrier AM |
+| Envelope Shape               | Sinusoidal                    | Envelope follows the message signal |
+| Signal Stability             | Stable                        | Proper triggering and synchronization |
+| XY Mode Pattern              | Symmetrical pattern           | Confirms correct signal relationship |
+
+This experimental results confirm the proper AM signal generation was the observed waveform and envelope behavior agree with theoretical expectations.
+
+## Learnings/Summary
+<p align="justify"> This laboratory experiment has provided an clear understanding of the theoretical concepts and practical implementation of Amplitude Modulation (AM) using communication system modules. Through hands-on use of the oscilloscope and the Emona Telecoms-Trainer 101 (ETT-101), the relationship between the message signal and the carrier signal was successfully observed and analyzed. The experiment demonstrated how individual system blocks such as the adder, phase shifter, and signal sources work together to generate an AM signal using the Double Sideband Full Carrier (DSBFC) technique. </p> <p align="justify"> This results showed that the envelope of the AM signal follows the message signal, confirming correct modulation behavior. By varying the modulation index, different modulation conditions were observed, including under-modulation, proper modulation, and over-modulation. The use of XY mode further helped visualize the relationship between signals and verify system synchronization. Overall, this experiment strengthened practical skills in signal measurement, system setup, and waveform interpretation, while reinforcing key concepts in analog communication systems. </p>
+
+
