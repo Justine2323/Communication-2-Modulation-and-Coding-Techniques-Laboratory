@@ -8,3 +8,10 @@ This Project Experimental was investigates the theoretical principles and practi
 - Part 4 :
 
 ## Part 1 : 
+### 1.1 Oscilloscope Setup
+-
+-
+-
+-
+### 1.2 Results
+![Experimental Results](Part 1/Output-Results/Part1_resultfig4 (1).jpeg)
